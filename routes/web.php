@@ -12,4 +12,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/' , [UsersController::class , 'index'])->name('users');
+Route::get('pdf', [UsersController::class , 'index']);
 

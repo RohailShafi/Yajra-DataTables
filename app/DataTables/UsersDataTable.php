@@ -132,7 +132,7 @@ class UsersDataTable extends DataTable
                     ->buttons([
                         Button::make('excel'),
                         Button::make('csv'),
-                        Button::make('pdf')->text('Export First Page'),
+                        Button::make('pdf')->text('PDF'),
                         Button::make('print'),
                         Button::make('reset'),
                         Button::make('reload')
@@ -155,7 +155,7 @@ class UsersDataTable extends DataTable
                 ->exportable(false)
                 ->printable(false)
                 ->width(120)
-                ->addClass('text-center'),
+                ->addClass('text-center no-search'),
         ];
     }
 

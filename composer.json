@@ -10,14 +10,12 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "barryvdh/laravel-dompdf": "^3.1",
         "barryvdh/laravel-snappy": "^1.0",
-        "h4cc/wkhtmltopdf-amd64": "0.12.x",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "maatwebsite/excel": "3.1.64",
-        "yajra/laravel-datatables": "^12.0",
-        "yajra/laravel-datatables-buttons": "^12.1",
-        "yajra/laravel-datatables-oracle": "^12.0"
+        "yajra/laravel-datatables": "^12.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
